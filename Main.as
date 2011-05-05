@@ -15,8 +15,6 @@ package {
 	/**
 	* Preloads swf with loader and resizes to fit stage.
 	* 
-	* <p>This class can be used in two ways:</p>
-	* 
 	* @author Micky Hulse
 	*/
 	
