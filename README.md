@@ -10,13 +10,13 @@ Simple [AS3](http://en.wikipedia.org/wiki/ActionScript#ActionScript_3.0) swf pre
 
 Add the above packages to your [classpath](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html?content=00000164.html).
 
-## Required [flashvar(s)](http://kb2.adobe.com/cps/164/tn_16417.html):
+## Required [flashvar](http://kb2.adobe.com/cps/164/tn_16417.html)(s):
 
 * __"swf"__
     
     Path to loaded SWF file.
 
-## Optional flashvar(s)
+## Optional [flashvar](http://kb2.adobe.com/cps/164/tn_16417.html)(s):
 
 * __"link"__
     
@@ -58,7 +58,7 @@ __Javascript (using [SWFObject](http://code.google.com/p/swfobject/)):__
                 allowscriptaccess: 'always'
             };
             var attributes = {}
-            swfobject.embedSWF('loader.swf', 'hd', '#(width)#px', '#(height)#px', '9.0.115.0', false, flashvars, params, attributes);
+            swfobject.embedSWF('loader.swf', 'hd', '630px', '320px', '9.0.115.0', false, flashvars, params, attributes);
         //-->
     </script>
 
@@ -75,6 +75,6 @@ __HTML:__
 
 ## Changelog:
 
-* v1.0: __2009/05/05__
+* v1.0: __2011/05/05__
 	* Initial public release.
 	* Uploaded to GitHub.
