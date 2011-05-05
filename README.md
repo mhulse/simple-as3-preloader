@@ -10,13 +10,13 @@ Simple [AS3](http://en.wikipedia.org/wiki/ActionScript#ActionScript_3.0) swf pre
 
 Add the above packages to your [classpath](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html?content=00000164.html).
 
-## Required [flashvar](http://kb2.adobe.com/cps/164/tn_16417.html)(s):
+## Required [flashvar](http://kb2.adobe.com/cps/164/tn_16417.html):
 
 * __"swf"__
     
     Path to loaded SWF file.
 
-## Optional [flashvar](http://kb2.adobe.com/cps/164/tn_16417.html)(s):
+## Optional [flashvars](http://kb2.adobe.com/cps/164/tn_16417.html):
 
 * __"link"__
     
